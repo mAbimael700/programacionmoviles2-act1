@@ -2,7 +2,7 @@ import React from 'react'
 import EjercicioTemplate from '~/components/activity/ejercicio-template'
 import { convertToInch } from '~/lib/actividad4/fn'
 
-export default function ejercicio3() {
+export default function ejercicio4() {
   const [centimeter, setCentimeter] = React.useState<string>()
   const [result, setResult] = React.useState<number | undefined>()
 
